@@ -1,4 +1,4 @@
-Uwaga tutaj link do dokumentacji w google docs z ładnym formatowaniem: https://docs.google.com/document/d/1m5IDfJaUG6t0hPmMFUnPvGzN0-SSvneAPk5yYQLGYP0/edit?usp=sharing
+Uwaga link do google docs z ładnym formatowaniem: https://docs.google.com/document/d/1m5IDfJaUG6t0hPmMFUnPvGzN0-SSvneAPk5yYQLGYP0/edit?usp=sharing
 
 Dokumentacja
 ProperTax
@@ -190,10 +190,11 @@ namespace ProperTax.Controllers
 }
 
 NieruchomosciController.cs
-Metoda Create przypisuje domyślne wartości gdy użytkownik pozostawi puste pola. Waliduje czy data kupienia jest przed sprzedania. Sprawdza czy data kupienia i sprzedania ma swój rok w StawkaPodatku. Tworzy Nieruchomosci.
+Metoda Create przypisuje domyślne wartości gdy użytkownik pozostawi puste pola. Waliduje czy data kupienia jest przed sprzedania. Sprawdza czy data kupienia i sprzedania ma swój rok w StawkaPodatku. Wywołuje AktualizujWszystkieSumyPowierzchni. Tworzy Nieruchomosci.
 
-Metoda Edit przypisuje domyślne wartości gdy użytkownik pozostawi puste pola. Waliduje czy data kupienia jest przed sprzedania. Sprawdza czy data kupienia i sprzedania ma swój rok w StawkaPodatku. Edytuje Nieruchomosci.
+Metoda Edit przypisuje domyślne wartości gdy użytkownik pozostawi puste pola. Waliduje czy data kupienia jest przed sprzedania. Sprawdza czy data kupienia i sprzedania ma swój rok w StawkaPodatku. Wywołuje AktualizujWszystkieSumyPowierzchni. Edytuje Nieruchomosci.
 
+Metoda DeleteConfirmed wywołuje AktualizujWszystkieSumyPowierzchni. Usuwa Nieruchomosc.
 Metoda AktualizujWszystkieSumyPowierzchni liczy sumę powierzchni nieruchomości dla SumaPowierzchni.
 
 
