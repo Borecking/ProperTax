@@ -1,7 +1,9 @@
-1. Opis działania projektu
-Aplikacja służy do inwentarzu nieruchomości oraz obliczania podatku za ich powierzchnie. Dzięki temu można przeglądać aktualnie posiadane nieruchomości oraz te które zostały już sprzedane.
+Link do dokumentacji w google docs z ładnym formatowaniem:
 
-2. Technologia
+1. Opis działania projektu
+2. Aplikacja służy do inwentarzu nieruchomości oraz obliczania podatku za ich powierzchnie. Dzięki temu można przeglądać aktualnie posiadane nieruchomości oraz te które zostały już sprzedane.
+
+3. Technologia
 Aplikacja internetowa została napisana w frameworku asp.net 8.0
 Architektura: Model-View-Controller
 Baza danych: Microsoft sql server
